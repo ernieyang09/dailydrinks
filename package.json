@@ -1,0 +1,25 @@
+{
+  "name": "dailydrinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ernie Yang <https://github.com/ernieyang09>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.9.1",
+    "react-popupbox": "^2.0.8",
+    "shortid": "^2.2.14",
+    "styled-components": "^4.3.2"
+  }
+}
