@@ -26,6 +26,6 @@ npm run dev
 
 ## TODO and enchancement
 
-- Add validation for form.(required and number).
-- Id should replace by name(Add field for name).
+- Add validation for form.(check required and number).
+- Id should be replaced by name(Add field for name).
 - Add amount for a single order.
