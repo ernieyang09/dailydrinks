@@ -32,6 +32,7 @@ const App = () => {
 const StyledApp = styled.div`
     margin: 30px auto;
     width: 80vw;
+    min-width: 350px;
     max-width: 480px;
     min-height: 80vh;
     background: white;

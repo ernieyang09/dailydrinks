@@ -18,8 +18,8 @@ const OrderPanel = (props) => {
   return (
     <StyledPanel>
       <div className='input-wrap'>
-        <Input name='drink' onChange={handleChange} value={form['drink'] || ''} placeholder='品項' />
-        <Input name='price' onChange={handleChange} value={form['price'] !== undefined ? form['price'] : ''} placeholder='價格' />
+        <Input name='drink' onChange={handleChange} value={form['drink'] || ''} placeholder='品項' width='120px' />
+        <Input name='price' onChange={handleChange} value={form['price'] !== undefined ? form['price'] : ''} placeholder='價格' width='120px' />
       </div>
       <div className="comment">
         <div>備註</div>
