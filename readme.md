@@ -18,3 +18,14 @@
 npm i
 npm run dev
 ```
+
+## Features
+
+- Toggle payment status - just double click the list item.
+- Filter payment status
+
+## TODO and enchancement
+
+- Add validation for form.(required and number).
+- Id should replace by name(Add field for name).
+- Add amount for a single order.
